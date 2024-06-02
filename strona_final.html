@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<Html>
+
+21:08 10/05/2024
+
+<h1><font face="Comic Sans MS"> Coca-cola jest lepsza niż Pepsi </font></h1>
+
+ <script>
+               function pokazGodzine() {
+            var dzisiaj = new Date();
+            var godzina = dzisiaj.getHours();
+            var minuty = dzisiaj.getMinutes();
+            var sekundy = dzisiaj.getSeconds();
+
+                       if (godzina < 10) {
+                godzina = '0' + godzina;
+            }
+            if (minuty < 10) {
+                minuty = '0' + minuty;
+            }
+            if (sekundy < 10) {
+                sekundy = '0' + sekundy;
+            }
+            document.getElementById('czas').textContent = godzina + ':' + minuty + ':' + sekundy;
+        }
+
+               window.onload = function() {
+            pokazGodzine(); // Pokaż aktualną godzinę przy ładowaniu strony
+                      setInterval(pokazGodzine, 1000);
+        };
+    </script>
+<body>
+
+  <h3>Aktualna godzina:</h3>
+    <p id="czas"></p>
+
+<h2> Coca-cola </h2>
+<p> <b> Coca-Cola </b> – <font face="arial"> marka napoju gazowanego przedsiębiorstwa "The Coca-Cola Company". 
+Powstała pod koniec XIX wieku (8 maja 1886 r.) i jest jedną z najpopularniejszych i najbardziej rozpoznawalnych marek na świecie </font></p>
+
+<a href="https://www.coca-colacompany.com//">
+  Coca-cola website
+</a>
+
+<img src="https://seeklogo.com/images/C/coca-cola-circle-logo-A9EBD3B00A-seeklogo.com.png" alt="Coca-Cola logo">
+
+<p><b> Pepsi-Cola </b> – <font face="arial"> marka napojów gazowanych typu cola należąca do PepsiCo. 
+Największym z jej konkurentów jest Coca-Cola. 
+Pepsi-Cola została wprowadzona na rynek w roku 1893 przez amerykanina </font></p>
+
+<a href="https://www.pepsi.com/">
+  Pepsi-cola website
+</a>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Pepsi_logo_%282014%29.svg/800px-Pepsi_logo_%282014%29.svg.png" alt="Pepsi-Cola logo">
+
+<h2> Porównanie </h2>
+  <table border="1">
+        <tr>
+            <th>Coca-Cola</th>
+            <th>Pepsi-Cola</th>
+                  </tr>
+        <tr>
+            <td>1886</td>
+            <td>1893</td>
+                  </tr>
+
+
+        </tr>
+    </table>
+
+<p> Z powyższej tabelki wynika, że Pepsi-Cola to kopia Coca-Coli. Dlatego uważam, że Coca-cola jest lepsza. </p>
+
+    <h2>Przykładowa lista wypunktowana:</h2>
+    <ul>
+        <li>Coca-Cola</li>
+        <li>Pepsi-Cola</li>
+        <li>Cofola</li>
+    </ul>
+
+
+
+<a href="https://en.wikipedia.org/wiki/Cola_wars"> <button> Dowiedz się więcej </button> </a>
+
+<p> Podstrona: </p>
+
+<a href="file:///C:/Users/maksp/Downloads/podstrona2.html">
+
+Random dancing potatoee
+</a>
+
+
+<h3><font face="Comic Sans MS"> Dzięuje za uwage. </font></h3>
+
+<a href="https://www.marxists.org/archive/marx/works/1848/communist-manifesto/
+">
+
+<p> </p>
+
+Communist manifesto
+</a>
+<p> </p>
+<a href="https://www.youtube.com/watch?v=usXerewVP7g">
+Random dancing potatoee
+</a>
+
+
+</html>
